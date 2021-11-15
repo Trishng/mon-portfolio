@@ -217,6 +217,8 @@ a:hover {
 @media screen and (max-width: 992px) {
     .menu__txt {
         padding-left: 20px;
+        left: 90%;
+        transform: translateX(-100%);
    }
     .menu__txt ul > li {
         font-size: 25px;

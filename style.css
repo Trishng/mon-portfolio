@@ -285,7 +285,7 @@ a:hover {
 
 .projet__img > img {
     width: 100%;
-    max-height: min-content;
+    height: min-content;
     object-fit: cover;
 }
 .projet__img > .a {
@@ -305,6 +305,13 @@ a:hover {
         grid-template-areas: "a a " "b c" "d d";
    }
 }
+
+@media screen and (max-width: 768px) {
+    .projet__img > img {
+        height: 100%;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .projet__img {
         grid-template-areas: "a a a" "b c d";

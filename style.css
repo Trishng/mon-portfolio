@@ -305,13 +305,6 @@ a:hover {
         grid-template-areas: "a a " "b c" "d d";
    }
 }
-
-@media screen and (min-width: 577px) {
-    .projet__img > img {
-        height: 100%;
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .projet__img {
         grid-template-areas: "a a a" "b c d";

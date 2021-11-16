@@ -261,6 +261,12 @@ a:hover {
 .projet__txt > p {
     padding-left: 20px;
 }
+
+.projet__txt > a {
+    text-decoration: underline;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
 .projet__img {
     width: 100%;
     display: grid;
@@ -326,6 +332,7 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding-left: 20px;
+    padding-top: 20px;
 }
 .tags > ul > li {
     display: block;

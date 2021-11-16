@@ -198,8 +198,6 @@ br::selection {
     font-weight: 600;
     color: white;
     filter: drop-shadow(-2px 3px 5px rgba(58, 58, 58, 0.4));
-    left: 90%;
-    transform: translateX(-100%);
 }
 .menu__txt > ul {
     list-style-type: decimal;

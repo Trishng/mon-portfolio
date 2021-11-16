@@ -285,7 +285,7 @@ a:hover {
 
 .projet__img > img {
     width: 100%;
-    height: min-content;
+    max-height: min-content;
     object-fit: cover;
 }
 .projet__img > .a {

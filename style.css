@@ -306,7 +306,7 @@ a:hover {
    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
     .projet__img > img {
         height: 100%;
     }
